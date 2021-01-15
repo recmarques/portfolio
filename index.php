@@ -68,10 +68,15 @@
           text-decoration: none;
       }
 
+      nav .logo a{
+        color: white;
+      }
+
       nav .logo a:hover{
           color: #ddd;
           text-decoration: none;
           font-size: 20px;
+          transition: all 0.3s ease;
           font-weight: 600;
       }
 
