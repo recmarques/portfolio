@@ -2,7 +2,7 @@
 
   <html lang="pt-br" dir="ltr">
     <head>
-      <title>Início | Portfólio Renata Marques</title>
+      <title>Projetos | Portfólio Renata Marques</title>
       
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
       <meta charset="utf-8">
 
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link rel="stylesheet" href="css/style-index.css">
+      <link rel="stylesheet" href="css/style-projetos.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
       <link rel="icon" href="img/person.png" type="image/png" />
@@ -38,6 +38,7 @@
 
       body{
           background: #303030;
+          width: 100%;
       }
 
       label {
@@ -78,11 +79,6 @@
 
       nav .logo a{
         color: white;
-      }
-
-      nav .logo img{
-          width: 40%;
-          padding-top: 10px;
       }
 
       nav ul{
@@ -592,15 +588,8 @@
       width: 90%;
     }
 
-    .avaliacao-star{
-      width: 4%;
-    }
 
     @media screen and (max-width: 700px){
-
-      .avaliacao-star{
-          width: 5% !important;
-        }
 
         nav .logo img{
           width: 30%;
@@ -791,11 +780,11 @@
 
         .column {
         float: left;
-        width: 330px;
-        margin-top: 5%;
+        width: 25%;
+        margin-top: 0;
         padding: 20px;
         font-family: 'Roboto', sans-serif;
-        height: 300px; /* Should be removed. Only for demonstration */
+        height: 390px;
         }
 
         /* Clear floats after the columns */
@@ -803,6 +792,11 @@
         content: "";
         display: table;
         clear: both;
+        }
+
+        .row-column{
+          width: 100% !important;
+          margin: 0 !important;
         }
 
         .go-down{
@@ -814,9 +808,47 @@
         text-align: center;
     }
    
-   .row-column a:hover{
-color: white;
-   }
+
+   .card {
+      background-color: #131212;
+      color: #BCBCBC;
+      transition: 0.3s;
+      width: 100%;
+      height: 100%;
+  }
+
+    .card:hover {
+      background-color: #BCBCBC;
+      color: #131212;
+      transition: all 0.9s ease;
+      box-shadow: 20px 50px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+      padding: 2px 16px;
+      width: 100%;
+    }
+
+    .container h4{
+      padding: 30px 0 10px 17px;
+      font-size: 28px;
+      width: 90%;
+      line-height: 34px;
+    }
+
+    .container p{
+      padding: 5px 0 10px 17px;
+      font-size: 14px;
+      line-height: 22px;
+      width: 95%;
+    }
+
+    h3{
+      color: #FFFFFF;
+      padding: 20px 0 0 20px;
+      margin-bottom: 0;
+      font-weight: 600;
+    }
   </style>
     </head>
       <body>
@@ -833,8 +865,8 @@ color: white;
           </label>
 
           <ul>
-            <li><a class="active" href="index.php">INÍCIO</a></li>
-            <li><a href="projetos.php">PROJETOS</a></li>
+            <li><a href="index.php">INÍCIO</a></li>
+            <li><a class="active" href="projetos.php">PROJETOS</a></li>
             <li class="menu-distant"><a href="codigos.php">CÓDIGOS</a></li>
             <li><a href=meu-perfil.php>CONTATO</a></li>
         
@@ -842,107 +874,78 @@ color: white;
 
         </nav>
 
-
-        <div class="hero-image" id="hero-image">
-          <div class="row">
-
-            <div class="col-sm-6 img-banner">
-              <img src="img/person.png" alt="personagem" />
-              <!-- <img src="img/img-banner.png" alt="personagem"/> -->
-            </div>
-
-           
-            <div class="col-sm-6 bem-vindo">
-                <hr style="border-top: 5px solid white; width: 60%;" />
-                PORTFÓLIO | RENATA DE CASTRO MARQUES
-              <br /> 
-
-              <div class="descricao">Programadora e designer, me formei no<br />
-                Instituto Federal de São Paulo e pretendo<br />
-                atuar na área de TI.
-              </div>
-               <br />
-
-              <a href="sobre.php">
-                <button class="button button1">VER MAIS</button>
-              </a>
-            </div>
-
-          </div>
-
-          
-          <div class="go-down">
-            <a href="#texto">
-              <img src="img/down.png">
-            </a>
-          </div>
-
-        </div>
+        <h3>MEUS PROJETOS </h3>(10)
 
         <div class="row-column" id="texto">
             <a href="">
-                <div class="column" style="background-color:#FFEF5A; margin-left: 80px; margin-right: 40px;">
-                <h2 style="color: black; font-weight: 600; font-size: 28px;">VEJA ALGUNS<br />DOS MEUS <br />PROJETOS</h2>
-                <p style="color: rgb(61, 61, 61);">atualizado 14/01/2020</p>
+              <div class="column">
+                    
+                <div class="card">
+                  <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
+                  <div class="container">
+                    <h4><b>PROJETO JACI
+                      TRABALHO DE CONCLUSÃO DE CURSO - IFSP</b></h4>
+                    <p>01/12/2020</p> 
+                    <p>Um projeto voltado à disponibilidade de material didático para alunos do IFSP!</p>
+                  </div>
                 </div>
+                
+            </div>
             </a>
-            <a href="https://github.com/recmarques">
-                <div class="column" style="background-color:#525252; margin-left: 60px; margin-right: 60px;">
-                    <h2 style="color: #BCBCBC; font-weight: 600; font-size: 28px;">CÓDIGOS <br />(GITHUB)</h2>
-                    <p style="color: gray;">atualizado 14/01/2020</p>
-                </div>
-            </a>
+
             <a href="">
-                <div class="column" style="background-color:#525252; margin-left: 40px; margin-right: 80px;">
-                    <h2 style="color: #BCBCBC; font-weight: 600; font-size: 28px;">MINHAS REDES<br />SOCIAIS</h2>
-                    <p style="color: gray;">atualizado 14/01/2020</p>
+              <div class="column">
+                    
+                <div class="card">
+                  <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
+                  <div class="container">
+                    <h4><b>PROJETO SOL
+                      TIME DE VÔLEI - IFSP</b></h4>
+                    <p>30/11/2019</p> 
+                    <p>Projeto para facilitar o cadastro de alunos que desejam participar na seleção do time de vôlei IFSP.</p>
+                  </div>
                 </div>
+                
+            </div>
             </a>
-          </div>
 
-
-
-  <div class="ver-mais">
-    <!-- <a href="projetos.php"> -->
-      <!-- <button class="button-vermais button1-vermais">VER MAIS</button> -->
-    <!-- </a> -->
-  </div>
-
-
-  <div class="footer">
-     
-        <div class="col-sm-2 rede-social">
-          <a href="https://www.facebook.com/" target="_blank">
-            <img src="img/facebook.png" alt="facebook"/>
+            <a href="">
+              <div class="column">
+                    
+                <div class="card">
+                  <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
+                  <div class="container">
+                    <h4><b>PROJETO JACI
+                      TRABALHO DE CONCLUSÃO DE CURSO - IFSP</b></h4>
+                    <p>01/12/2020</p> 
+                    <p>Um projeto voltado à disponibilidade de material didático para alunos do IFSP!</p>
+                  </div>
+                </div>
+                
+            </div>
             </a>
+
+            <a href="">
+              <div class="column">
+                    
+                <div class="card">
+                  <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
+                  <div class="container">
+                    <h4><b>PROJETO JACI
+                      TRABALHO DE CONCLUSÃO DE CURSO - IFSP</b></h4>
+                    <p>01/12/2020</p> 
+                    <p>Um projeto voltado à disponibilidade de material didático para alunos do IFSP!</p>
+                  </div>
+                </div>
+                
+            </div>
+            </a>
+
+        
+
         </div>
 
-        <div class="col-sm-2 rede-social">
-          <a href="https://www.instagram.com/" target="_blank">
-            <img src="img/insta.png" alt="instagram"/>
-            </a>
-        </div>
 
-        <div class="col-sm-2 rede-social">
-          <a href="https://twitter.com/" target="_blank">
-            <img src="img/twitter.png" alt="twitter"/>
-            </a>
-        </div>
-
-        <div class="col-sm-2 rede-social">
-          <a href="mailto:gruposol413@gmail.com" target="_blank">
-            <img src="img/mail.png" alt="e-mail"/>
-            </a>
-        </div>
-
-        <div class="col-sm-4 logo-footer" >
-          <a href="sobre.php">
-          <img src="img/jaci.png" alt="jaci logo"/>
-          </a>
-        </div>
-
-  </div>
- 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
     </body>

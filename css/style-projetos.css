@@ -1,33 +1,3 @@
-<!DOCTYPE html>
-
-  <html lang="pt-br" dir="ltr">
-    <head>
-      <title>Início | Portfólio Renata Marques</title>
-      
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="author" content="Renata de Castro M. - EQUIPE SOL">
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-      <meta charset="utf-8">
-
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link rel="stylesheet" href="css/style-index.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-      <link rel="icon" href="img/person.png" type="image/png" />
-      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-      <script scr="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
-   
-      
-      <style>
 
       @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
       *{
@@ -55,7 +25,7 @@
           background: #2D2D2D;
           align-items: center;
           justify-content: space-between;
-          padding: 0 50px 0 20px;
+          padding: 0 50px 0 100px;
           font-weight: 700;
           font-family: 'Roboto Condensed', sans-serif;
           flex-wrap: wrap;
@@ -67,17 +37,17 @@
           font-weight: 600;
           text-decoration: none;
       }
+      
+      nav .logo a{
+        color: white;
+      }
 
       nav .logo a:hover{
           color: #ddd;
+          transition: all 0.3s ease;
           text-decoration: none;
           font-size: 20px;
-          transition: all 0.3s ease;
           font-weight: 600;
-      }
-
-      nav .logo a{
-        color: white;
       }
 
       nav .logo img{
@@ -815,135 +785,5 @@
     }
    
    .row-column a:hover{
-color: white;
+    color: white;
    }
-  </style>
-    </head>
-      <body>
-        <nav>
-          <div class="logo">
-            <a href="index.php">
-                RENATA MARQUES
-                <!-- <img src="img/logo-black.png" alt="RENATA DE CASTRO MARQUES"/> -->
-            </a>
-          </div>
-        <input type="checkbox" id="click">
-          <label for="click" class="menu-btn">
-            <i class="fas fa-bars"></i>
-          </label>
-
-          <ul>
-            <li><a class="active" href="index.php">INÍCIO</a></li>
-            <li><a href="projetos.php">PROJETOS</a></li>
-            <li class="menu-distant"><a href="codigos.php">CÓDIGOS</a></li>
-            <li><a href=meu-perfil.php>CONTATO</a></li>
-        
-          </ul>
-
-        </nav>
-
-
-        <div class="hero-image" id="hero-image">
-          <div class="row">
-
-            <div class="col-sm-6 img-banner">
-              <img src="img/person.png" alt="personagem" />
-              <!-- <img src="img/img-banner.png" alt="personagem"/> -->
-            </div>
-
-           
-            <div class="col-sm-6 bem-vindo">
-                <hr style="border-top: 5px solid white; width: 60%;" />
-                PORTFÓLIO | RENATA DE CASTRO MARQUES
-              <br /> 
-
-              <div class="descricao">Programadora e designer, me formei no<br />
-                Instituto Federal de São Paulo e pretendo<br />
-                atuar na área de TI.
-              </div>
-               <br />
-
-              <a href="sobre.php">
-                <button class="button button1">VER MAIS</button>
-              </a>
-            </div>
-
-          </div>
-
-          
-          <div class="go-down">
-            <a href="#texto">
-              <img src="img/down.png">
-            </a>
-          </div>
-
-        </div>
-
-        <div class="row-column" id="texto">
-            <a href="">
-                <div class="column" style="background-color:#FFEF5A; margin-left: 80px; margin-right: 40px;">
-                <h2 style="color: black; font-weight: 600; font-size: 28px;">VEJA ALGUNS<br />DOS MEUS <br />PROJETOS</h2>
-                <p style="color: rgb(61, 61, 61);">atualizado 14/01/2020</p>
-                </div>
-            </a>
-            <a href="https://github.com/recmarques">
-                <div class="column" style="background-color:#525252; margin-left: 60px; margin-right: 60px;">
-                    <h2 style="color: #BCBCBC; font-weight: 600; font-size: 28px;">CÓDIGOS <br />(GITHUB)</h2>
-                    <p style="color: gray;">atualizado 14/01/2020</p>
-                </div>
-            </a>
-            <a href="">
-                <div class="column" style="background-color:#525252; margin-left: 40px; margin-right: 80px;">
-                    <h2 style="color: #BCBCBC; font-weight: 600; font-size: 28px;">MINHAS REDES<br />SOCIAIS</h2>
-                    <p style="color: gray;">atualizado 14/01/2020</p>
-                </div>
-            </a>
-          </div>
-
-
-
-  <div class="ver-mais">
-    <!-- <a href="projetos.php"> -->
-      <!-- <button class="button-vermais button1-vermais">VER MAIS</button> -->
-    <!-- </a> -->
-  </div>
-
-
-  <div class="footer">
-     
-        <div class="col-sm-2 rede-social">
-          <a href="https://www.facebook.com/" target="_blank">
-            <img src="img/facebook.png" alt="facebook"/>
-            </a>
-        </div>
-
-        <div class="col-sm-2 rede-social">
-          <a href="https://www.instagram.com/" target="_blank">
-            <img src="img/insta.png" alt="instagram"/>
-            </a>
-        </div>
-
-        <div class="col-sm-2 rede-social">
-          <a href="https://twitter.com/" target="_blank">
-            <img src="img/twitter.png" alt="twitter"/>
-            </a>
-        </div>
-
-        <div class="col-sm-2 rede-social">
-          <a href="mailto:gruposol413@gmail.com" target="_blank">
-            <img src="img/mail.png" alt="e-mail"/>
-            </a>
-        </div>
-
-        <div class="col-sm-4 logo-footer" >
-          <a href="sobre.php">
-          <img src="img/jaci.png" alt="jaci logo"/>
-          </a>
-        </div>
-
-  </div>
- 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-    </body>
-  </html>

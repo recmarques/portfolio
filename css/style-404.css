@@ -9,7 +9,7 @@
   body{
     /* min-height: 100vh; */
     /* background-image: url("../img/Splash\ Desktop.png"); */
-    background: #fff67a;
+    background-color: #2d2d2d !important;
     font-family: 'Josefin Sans', sans-serif;
     width: 100%;
     margin: 0;
@@ -71,16 +71,16 @@
   .button1 {
     background-color: transparent; 
     font-weight: 800;
-    color: #000; 
-    border: 2px solid #000;
+    color: #FFEF5A; 
+    border: 2px solid #FFEF5A;
     font-family: 'Josefin Sans', sans-serif;
     transition: 0.3s;
   }
 
   .button1:hover {
-    background-color: #06241e; 
-    color: #fff; 
-    border: 2px solid #000;
+    background-color: #FFEF5A; 
+    color: #000; 
+    border: 2px solid #FFEF5A;
     transition: 0.5s;
   }
 
