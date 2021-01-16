@@ -12,7 +12,7 @@
 
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <link rel="stylesheet" href="css/style-index.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.cnom/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
       <link rel="icon" href="img/favicon.png" type="image/png" />
       <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
@@ -68,16 +68,16 @@
           text-decoration: none;
       }
 
-      nav .logo a{
-        color: white;
-      }
-
       nav .logo a:hover{
           color: #ddd;
           text-decoration: none;
           font-size: 20px;
           transition: all 0.3s ease;
           font-weight: 600;
+      }
+
+      nav .logo a{
+        color: white;
       }
 
       nav .logo img{
@@ -768,8 +768,8 @@
     ::-webkit-scrollbar-thumb{
       background: linear-gradient(
       45deg,
-      #98cec3,
-      #98cec3
+      #FFEF5A,
+      #FFEF5A
       );
       border-radius: 3px;
     }
@@ -847,7 +847,7 @@ color: white;
           <div class="row">
 
             <div class="col-sm-6 img-banner">
-              <img src="img/person.png" alt="personagem"/>
+              <img src="img/person.png" alt="personagem" />
               <!-- <img src="img/img-banner.png" alt="personagem"/> -->
             </div>
 
@@ -883,7 +883,7 @@ color: white;
             <a href="">
                 <div class="column" style="background-color:#FFEF5A; margin-left: 80px; margin-right: 40px;">
                 <h2 style="color: black; font-weight: 600; font-size: 28px;">VEJA ALGUNS<br />DOS MEUS <br />PROJETOS</h2>
-                <p>atualizado 14/01/2020</p>
+                <p style="color: rgb(61, 61, 61);">atualizado 14/01/2020</p>
                 </div>
             </a>
             <a href="">

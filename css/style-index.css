@@ -738,8 +738,8 @@
     ::-webkit-scrollbar-thumb{
       background: linear-gradient(
       45deg,
-      #98cec3,
-      #98cec3
+      #FFEF5A,
+      #FFEF5A
       );
       border-radius: 3px;
     }
@@ -785,5 +785,5 @@
     }
    
    .row-column a:hover{
-color: white;
+    color: white;
    }
