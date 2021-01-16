@@ -2,7 +2,7 @@
 
   <html lang="pt-br" dir="ltr">
     <head>
-      <title>PORTFÓLIO | Renata Marques</title>
+      <title>Início | Portfólio Renata Marques</title>
       
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -863,7 +863,7 @@ color: white;
               </div>
                <br />
 
-              <a href="projetos.php">
+              <a href="sobre.php">
                 <button class="button button1">VER MAIS</button>
               </a>
             </div>
