@@ -627,7 +627,7 @@
         }
 
         .banner .titulo {
-            color: black;
+            color: #fff;
             text-align: left;
             font-weight: 700;
             max-width: 510px;
