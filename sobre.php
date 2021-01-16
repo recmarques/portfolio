@@ -4,7 +4,7 @@
   <head>
 
       <meta charset="utf-8">
-      <title>Sobre nós | JACI</title>
+      <title>Sobre mim | Portfólio Renata Marques</title>
       <link rel="icon" href="img/favicon.png" type="image/png" />
       
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -50,16 +50,17 @@
     }
         
     nav{
-      display: flex;
-      height: 80px;
-      width: 100%;
-      background: #24AE91;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0 50px 0 100px;
-      font-family: 'Josefin Sans', sans-serif;
-      flex-wrap: wrap;
-    }
+          display: flex;
+          height: 80px;
+          width: 100%;
+          background: #2D2D2D;
+          align-items: center;
+          justify-content: space-between;
+          padding: 0 50px 0 100px;
+          font-weight: 700;
+          font-family: 'Roboto Condensed', sans-serif;
+          flex-wrap: wrap;
+      }
 
     label {
       display: inline-block;
@@ -70,10 +71,23 @@
     }
 
     nav .logo{
-      color: #fff;
-      font-size: 35px;
-      font-weight: 600;
-    }
+          color: #fff;
+          font-size: 20px;
+          font-weight: 600;
+          text-decoration: none;
+      }
+      
+      nav .logo a{
+        color: white;
+      }
+
+      nav .logo a:hover{
+          color: #ddd;
+          transition: all 0.3s ease;
+          text-decoration: none;
+          font-size: 20px;
+          font-weight: 600;
+      }
 
     nav .logo img{
       width: 40%;
@@ -92,21 +106,21 @@
     }
         
     nav ul li a{
-      color: #000;
-      text-decoration: none;
-      font-size: 18px;
-      font-weight: 500;
-      padding: 8px 15px;
-      border-radius: 5px;
-      letter-spacing: 1px;
-      transition: all 0.3s ease;
-      padding-right: 35px;
-      padding-left: 35px;
-      font-size: 14px;
-      font-weight: 700;
-      align-content: center;
-      text-align: center;
-    }
+          color: #F5D83D;
+          text-decoration: none;
+          font-size: 18px;
+          font-weight: 500;
+          padding: 8px 15px;
+          border-radius: 5px;
+          letter-spacing: 1px;
+          transition: all 0.3s ease;
+          padding-right: 35px;
+          padding-left: 35px;
+          font-size: 14px;
+          font-weight: 700;
+          align-content: center;
+          text-align: center;
+      }
 
     nav ul li a.active,
     nav ul li a:hover{
@@ -532,7 +546,7 @@
       }
 
       .hero-image {
-        background-color: #5EC7A7;
+        background-color: #d8d8c4;
         height: 215px !important;
       }
 
@@ -731,7 +745,7 @@
       
     </div>
 
-    <div class="descrição" style="background-color: #5EC7A7; color: #000">
+    <div class="descrição" style="background-color: #d8d8c4; color: #000">
     <hr class="sobre"><br />
     Somos uma equipe de 4 integrantes: Laysla Fernanda, Marco Zotti, Miriã Teixeira,
     Renata de Castro e Samuel Sabino. Nós, juntos, formamos a <strong>Equipe Sol</strong>,
