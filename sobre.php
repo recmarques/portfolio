@@ -160,7 +160,7 @@
         position: fixed;
         top: 80px;
         left: -100%;
-        background: #24AE91;
+        background: #2d2d2d;
         height: 100vh;
         width: 100%;
         text-align: center;
@@ -363,7 +363,7 @@
       .titulo-banner{
         text-align: left;
         padding-top: 2% !important;
-        color: #000;
+        color: #fff;
         padding-left: 11% !important;
         line-height: 70px;
         font-size:71px;
@@ -546,7 +546,7 @@
       }
 
       .hero-image {
-        background-color: #d8d8c4;
+        background-color: #2d2d2d;
         height: 215px !important;
       }
 
@@ -638,25 +638,25 @@
 
     .email-link{
         text-decoration: none;
-        color: #32584d;
+        color: #f5d83d;
     }
     
     
     .email-link:hover{
         text-decoration: none;
-        color: #000000;
+        color: #ffeb81;
         transition: 0.7s;
     }
 
     .email-link-about{
         text-decoration: none;
-        color: #49947d;
+        color: #ffeb81;
     }
     
     
     .email-link-about:hover{
         text-decoration: none;
-        color: #ffffff;
+        color: #f5d83d;
         transition: 0.7s;
     }
 
@@ -745,8 +745,9 @@
       
     </div>
 
-    <div class="descrição" style="background-color: #d8d8c4; color: #000">
-    <hr class="sobre"><br />
+    <div class="descrição" style="background-color: #2d2d2d; color: #fff">
+    <hr class="about"><br />
+    <!-- <hr class="sobre"><br /> -->
     Somos uma equipe de 4 integrantes: Laysla Fernanda, Marco Zotti, Miriã Teixeira,
     Renata de Castro e Samuel Sabino. Nós, juntos, formamos a <strong>Equipe Sol</strong>,
     que deu origem ao Projeto Jaci: uma plataforma para facilitar e auxiliar os estudos
