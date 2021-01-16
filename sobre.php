@@ -684,49 +684,37 @@
           margin: 0;
         }
       }
+      
+      .menu-distant{
+        padding-right: 110px;
+    }
 
   </style>
 </head>
 
   <body>
 
-    <nav>
-      <div class="logo">
-        <a href="header.php">
-          <img src="img/logo-black.png" alt="logo"/>
-        </a>
-      </div>
+  <nav>
+          <div class="logo">
+            <a href="header.php">
+                RENATA MARQUES
+                <!-- <img src="img/logo-black.png" alt="RENATA DE CASTRO MARQUES"/> -->
+            </a>
+          </div>
+        <input type="checkbox" id="click">
+          <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+          </label>
 
-      <input type="checkbox" id="click">
-        <label for="click" class="menu-btn">
-          <i class="fas fa-bars"></i>
-        </label>
+          <ul>
+            <li><a class="active" href="header.php">INÍCIO</a></li>
+            <li><a href="projetos.php">PROJETOS</a></li>
+            <li class="menu-distant"><a href="criar-projeto.php">CÓDIGOS</a></li>
+            <li><a class=not-activate href=meu-perfil.php>CONTATO</a></li>
+        
+          </ul>
 
-      <ul>
-        <li><a href="header.php">INÍCIO</a></li>
-        <li><a href="projetos.php">ATIVIDADES</a></li>
-        <li><a href="criar-projeto.php">CADASTRAR ATIVIDADE</a></li>
-       
-        <?php 
-          if(isset($_SESSION['logado'])){
-              echo "<li><a class=not-activate href=meu-perfil.php>MEU PERFIL</a></li>";
-              echo "<li><a class=not-activate style=display:none href=login.php>ENTRAR</a></li>";
-          }
-          else{
-              echo "<li><a class=not-activate href=login.php>ENTRAR</a></li>";
-          }
-
-          if(isset($_SESSION['logado'])){
-              echo "<li><a class=not-activate href=logout.php>SAIR</a></li>";
-          }
-          else{
-            echo "<li><a class=not-activate style=display:none href=logout.php>SAIR</a></li>";
-          }
-
-        ?>
-      </ul>
-
-    </nav>
+        </nav>
 
     <div class="hero-image" id="topo">
         <a href="header.php">
