@@ -25,6 +25,10 @@ body{
         .titulo-banner{
             padding-top: 7% !important;
         }
+
+        .voltar img{
+            width: 17%;
+        }
     }
 
     #nav-mobile{
@@ -103,6 +107,10 @@ body{
     /* font-family: 'Lato', sans-serif !important; */
     font-family: 'Josefin Sans', sans-serif !important;
     letter-spacing: 1px;
+    }
+
+    .voltar img{
+        width: 6%;
     }
 
     .voltar{
