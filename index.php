@@ -35,7 +35,10 @@
           padding: 0;
           box-sizing: border-box;
       } 
-
+      
+      a{
+      text-decoration: none;
+    }
       body{
           background: #303030;
       }
@@ -423,11 +426,36 @@
       .footer .rede-social{
         background-color: #1D1D1D;
         align-content: center;
+        color: #5a5a5a;
         align-items: center;
         -moz-box-align: center;
         padding-left: 110px;
+        line-height: 32px;
         padding-top: 25px;
       }
+
+      .footer .rede-social a{
+          color: #F5D83D;
+          text-decoration: none;
+          font-size: 18px;
+          font-weight: 500;
+          padding: 8px 15px;
+          border-radius: 5px;
+          letter-spacing: 1px;
+          transition: all 0.3s ease;
+          padding-right: 35px;
+          padding-left: 35px;
+          font-size: 14px;
+          font-weight: 700;
+          align-content: center;
+          text-align: center;
+      }
+      
+       /* .rede-social a{
+        text-decoration: none;
+        align-content: center;
+        color: #5a5a5a !important;
+      } */
 
       .footer .logo-footer{
         background-color: #1D1D1D;
@@ -564,7 +592,7 @@
       align-content: center;
       align-items: center;
       -moz-box-align: center;
-      height: 170px;
+      height: 200px;
     }
 
     .footer .rede-social{
@@ -573,6 +601,8 @@
       align-items: center;
       -moz-box-align: center;
       padding-left: 110px;
+          font-family: 'Roboto', sans-serif;
+      color: #5a5a5a;
       padding-top: 30px;
     }
 
@@ -778,6 +808,8 @@
       font-weight: 600;
     }
 
+   
+
     .descricao{
         font-size: 12px;
         color: #BCBCBC;
@@ -790,12 +822,13 @@
     }
 
         .column {
-        float: left;
-        width: 330px;
+          float: left;
+        width: 440px;
         margin-top: 5%;
-        padding: 20px;
+        padding: 20px 40px 20px 40px;
+        margin-bottom: 5%;
         font-family: 'Roboto', sans-serif;
-        height: 300px; /* Should be removed. Only for demonstration */
+        height: 400px;
         }
 
         /* Clear floats after the columns */
@@ -817,6 +850,58 @@
    .row-column a:hover{
 color: white;
    }
+
+   .footer-title{
+    color: white;
+    font-weight: 700;
+   }
+
+   .row-column:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
+
+        .row-column{
+          width: 100% !important;
+          margin: 0 !important;
+        }
+
+        
+   .card {
+      background-color: #131212;
+      color: #BCBCBC;
+      transition: 0.3s;
+      width: 100%;
+      height: 100%;
+  }
+
+    .card:hover {
+      background-color: #FFEF5A;
+      color: #131212;
+      transition: all 0.9s ease;
+      box-shadow: 20px 50px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+      padding: 2px 16px;
+      width: 100%;
+    }
+
+    .container h4{
+      padding: 30px 0 10px 17px;
+      font-size: 28px;
+      width: 90%;
+      line-height: 34px;
+    }
+
+    .container p{
+      padding: 5px 0 10px 17px;
+      font-size: 14px;
+      line-height: 22px;
+      width: 95%;
+    }
+
   </style>
     </head>
       <body>
@@ -879,7 +964,7 @@ color: white;
 
         </div>
 
-        <div class="row-column" id="texto">
+        <!-- <div class="row-column" id="texto">
             <a href="">
                 <div class="column" style="background-color:#FFEF5A; margin-left: 80px; margin-right: 40px;">
                 <h2 style="color: black; font-weight: 600; font-size: 28px;">VEJA ALGUNS<br />DOS MEUS <br />PROJETOS</h2>
@@ -898,32 +983,81 @@ color: white;
                     <p style="color: gray;">atualizado 14/01/2020</p>
                 </div>
             </a>
+          </div> -->
+
+
+
+  
+
+  <div class="row-column" id="texto">
+    <a href="">
+      <div class="column">
+            
+        <div class="card">
+          <!-- <img src="img/person.png" alt="Avatar" style="width:100%"> -->
+          <div class="container">
+            <!-- <img src="img/person.png" width="40%"/> -->
+            <h4><b>MEUS<br />PROJETOS</b></h4>
+            <!-- <p>Um projeto voltado à disponibilidade de material didático para alunos do IFSP!</p> -->
           </div>
+        </div>
+        
+    </div>
+    </a>
 
+    <a href="">
+      <div class="column">
+            
+        <div class="card">
+          <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
+          <div class="container">
+            <h4><b>CÓDIGOS DE SITES (GITHUB)</b></h4>
+            
+            <!-- <p>Um projeto voltado à disponibilidade de material didático para alunos do IFSP!</p> -->
+          </div>
+        </div>
+        
+    </div>
+    </a>
 
-
-  <div class="ver-mais">
-    <!-- <a href="projetos.php"> -->
-      <!-- <button class="button-vermais button1-vermais">VER MAIS</button> -->
-    <!-- </a> -->
+    <a href="">
+      <div class="column">
+            
+        <div class="card">
+          <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
+          <div class="container">
+            <h4><b>MEU CURRÍCULO GERAL</b></h4>
+          
+            <!-- <p>Um projeto voltado à disponibilidade de material didático para alunos do IFSP!</p> -->
+          </div>
+        </div>
+        
+    </div>
+    </a>
   </div>
-
 
   <div class="footer">
      
         <div class="col-sm-3 rede-social">
           <a href="https://www.facebook.com/" target="_blank">
-            <img src="img/facebook.png" alt="facebook"/>
+            <!-- <img src="img/facebook.png" alt="facebook"/> -->
             </a>
         </div>
 
         <div class="col-sm-2 rede-social">
-         EXPLORE<br /><br />Início<br />Projetos<br />Códigos<br />Contato
+         <h5 class="footer-title">EXPLORE</h5><br />
+         <a href="index.php">Início</a>
+          <br />
+          <a href="projetos.php">Projetos</a>
+          <br />
+          <a href="index.php">Códigos</a>
+          <br />
+          <a href="index.php">Contato</a>
         </div>
 
         <div class="col-sm-4 rede-social">
-          ENTRE EM CONTATO COMIGO<br /><br />
-          Mande um e-mail para renatacmarques29@gmail.com.
+          <h5 class="footer-title">CONTATO</h5><br />
+          Mande um e-mail para <a href="mailto:renatacmarques29@gmail.com">renatacmarques29@gmail.com</a>.
 
           Responderei assim que possível!
         </div>
@@ -931,7 +1065,7 @@ color: white;
 
         <div class="col-sm-3 logo-footer" >
           <a href="sobre.php">
-          <img src="img/jaci.png" alt="jaci logo"/>
+          <!-- <img src="img/jaci.png" alt="jaci logo"/> -->
           </a>
         </div>
 
