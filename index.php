@@ -35,7 +35,7 @@
           padding: 0;
           box-sizing: border-box;
       } 
-      
+
       a{
       text-decoration: none;
     }
@@ -435,20 +435,10 @@
       }
 
       .footer .rede-social a{
-          color: #F5D83D;
+          color: #2d2d2d;
           text-decoration: none;
           font-size: 18px;
           font-weight: 500;
-          padding: 8px 15px;
-          border-radius: 5px;
-          letter-spacing: 1px;
-          transition: all 0.3s ease;
-          padding-right: 35px;
-          padding-left: 35px;
-          font-size: 14px;
-          font-weight: 700;
-          align-content: center;
-          text-align: center;
       }
       
        /* .rede-social a{
@@ -619,7 +609,7 @@
     }
 
     .rede-social img{
-      width: 90%;
+      width: 70%;
     }
 
     .avaliacao-star{
@@ -1038,9 +1028,9 @@ color: white;
 
   <div class="footer">
      
-        <div class="col-sm-3 rede-social">
+        <div class="col-sm-3 rede-social" style="text-align: center;">
           <a href="https://www.facebook.com/" target="_blank">
-            <!-- <img src="img/facebook.png" alt="facebook"/> -->
+            <img src="img/user.png" alt="user"/>
             </a>
         </div>
 

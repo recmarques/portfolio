@@ -849,6 +849,10 @@
       margin-bottom: 0;
       font-weight: 600;
     }
+
+    .num-projetos{
+      opacity: 0.2;
+    }
   </style>
     </head>
       <body>
@@ -874,7 +878,7 @@
 
         </nav>
 
-        <h3>MEUS PROJETOS </h3>(10)
+        <h3>MEUS PROJETOS <span class="num-projetos">(10)</span></h3>
 
         <div class="row-column" id="texto">
             <a href="">
@@ -915,9 +919,9 @@
                 <div class="card">
                   <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
                   <div class="container">
-                    <h4><b>PROJETO JACI
-                      TRABALHO DE CONCLUSÃO DE CURSO - IFSP</b></h4>
-                    <p>01/12/2020</p> 
+                    <h4><b>PROJETO PORTFÓLIO
+                      </b></h4>
+                    <p>16/01/2021</p> 
                     <p>Um projeto voltado à disponibilidade de material didático para alunos do IFSP!</p>
                   </div>
                 </div>
@@ -931,8 +935,7 @@
                 <div class="card">
                   <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
                   <div class="container">
-                    <h4><b>PROJETO JACI
-                      TRABALHO DE CONCLUSÃO DE CURSO - IFSP</b></h4>
+                    <h4><b>PROJETO MARTIN LUZ</b></h4>
                     <p>01/12/2020</p> 
                     <p>Um projeto voltado à disponibilidade de material didático para alunos do IFSP!</p>
                   </div>
