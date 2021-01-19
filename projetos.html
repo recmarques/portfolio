@@ -845,15 +845,26 @@
       width: 95%;
     }
 
-    h3, h4{
-      color: #FFFFFF;
+    h4{
       padding: 20px 0 0 20px;
       margin-bottom: 0;
       font-weight: 600;
     }
 
+    h3, h2{
+      color: #fff;
+      padding: 20px 0 0 20px;
+      margin-bottom: 0;
+      font-weight: 600;
+    }
+
+    h2{
+      font-size: 20px;
+    }
+
     .num-projetos{
       opacity: 0.2;
+      color: #fff;
     }
   </style>
     </head>
@@ -882,7 +893,7 @@
         </nav>
 
         <h3>MEUS PROJETOS <span class="num-projetos">(6)</span></h3>
-        <h4>PROGRAMAÇÃO <span class="num-projetos">(4)</span></h4>
+        <h2>PROGRAMAÇÃO <span class="num-projetos">(4)</span></h2>
         <div class="row-column" id="texto">
             <a href="">
               <div class="column">
@@ -952,7 +963,7 @@
 
 
         <!-- LINHA 2 -->
-        <h4>DESIGN <span class="num-projetos">(2)</span></h4>
+        <h2>DESIGN <span class="num-projetos">(2)</span></h2>
          <div class="row-column" id="texto">
           <a href="">
             <div class="column">
