@@ -910,7 +910,8 @@ color: white;
           <ul>
             <li><a class="active" href="index.php">INÍCIO</a></li>
             <li><a href="projetos.php">PROJETOS</a></li>
-            <li class="menu-distant"><a href="codigos.php">CÓDIGOS</a></li>
+            <li><a href="codigos.php">CÓDIGOS</a></li>
+            <li class="menu-distant"><a href="codigos.php">SOBRE MIM</a></li>
             <li><a href=meu-perfil.php>CONTATO</a></li>
         
           </ul>
@@ -980,7 +981,7 @@ color: white;
   
 
   <div class="row-column" id="texto">
-    <a href="">
+    <a href="projetos.php">
       <div class="column">
             
         <div class="card">
@@ -995,7 +996,7 @@ color: white;
     </div>
     </a>
 
-    <a href="">
+    <a href="codigos.php">
       <div class="column">
             
         <div class="card">
@@ -1010,7 +1011,7 @@ color: white;
     </div>
     </a>
 
-    <a href="">
+    <a href="sobre.php">
       <div class="column">
             
         <div class="card">

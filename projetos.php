@@ -820,6 +820,7 @@
     .card:hover {
       background-color: #BCBCBC;
       color: #131212;
+      /* border: 2px solid #000000; */
       transition: all 0.9s ease;
       box-shadow: 20px 50px 20px 0 rgba(0, 0, 0, 0.2);
     }
@@ -832,8 +833,9 @@
     .container h4{
       padding: 30px 0 10px 17px;
       font-size: 28px;
-      width: 90%;
+      width: 92%;
       line-height: 34px;
+      text-transform: uppercase;
     }
 
     .container p{
@@ -843,7 +845,7 @@
       width: 95%;
     }
 
-    h3{
+    h3, h4{
       color: #FFFFFF;
       padding: 20px 0 0 20px;
       margin-bottom: 0;
@@ -869,17 +871,18 @@
           </label>
 
           <ul>
-            <li><a href="index.php">INÍCIO</a></li>
-            <li><a class="active" href="projetos.php">PROJETOS</a></li>
-            <li class="menu-distant"><a href="codigos.php">CÓDIGOS</a></li>
+            <li><a class="active" href="index.php">INÍCIO</a></li>
+            <li><a href="projetos.php">PROJETOS</a></li>
+            <li><a href="codigos.php">CÓDIGOS</a></li>
+            <li class="menu-distant"><a href="sobre.php">SOBRE MIM</a></li>
             <li><a href=meu-perfil.php>CONTATO</a></li>
         
           </ul>
 
         </nav>
 
-        <h3>MEUS PROJETOS <span class="num-projetos">(10)</span></h3>
-
+        <h3>MEUS PROJETOS <span class="num-projetos">(6)</span></h3>
+        <h4>PROGRAMAÇÃO <span class="num-projetos">(4)</span></h4>
         <div class="row-column" id="texto">
             <a href="">
               <div class="column">
@@ -888,7 +891,7 @@
                   <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
                   <div class="container">
                     <h4><b>PROJETO JACI
-                      TRABALHO DE CONCLUSÃO DE CURSO - IFSP</b></h4>
+                      TRABALHO DE CONCLUSÃO DE CURSO | IFSP</b></h4>
                     <p>01/12/2020</p> 
                     <p>Um projeto voltado à disponibilidade de material didático para alunos do IFSP!</p>
                   </div>
@@ -904,7 +907,7 @@
                   <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
                   <div class="container">
                     <h4><b>PROJETO SOL
-                      TIME DE VÔLEI - IFSP</b></h4>
+                      TIME DE VÔLEI | IFSP</b></h4>
                     <p>30/11/2019</p> 
                     <p>Projeto para facilitar o cadastro de alunos que desejam participar na seleção do time de vôlei IFSP.</p>
                   </div>
@@ -935,18 +938,85 @@
                 <div class="card">
                   <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
                   <div class="container">
-                    <h4><b>PROJETO MARTIN LUZ</b></h4>
+                    <h4><b>PROJETO MARTIN LUZ | CASHFORCE</b></h4>
                     <p>01/12/2020</p> 
                     <p>Um projeto voltado à disponibilidade de material didático para alunos do IFSP!</p>
                   </div>
                 </div>
                 
             </div>
-            </a>
-
-        
+          </a>
+      
 
         </div>
+
+
+        <!-- LINHA 2 -->
+        <h4>DESIGN <span class="num-projetos">(2)</span></h4>
+         <div class="row-column" id="texto">
+          <a href="">
+            <div class="column">
+                  
+              <div class="card">
+                <div class="container">
+                  <h4><b>PROJETO Grêmio Livre Estudantil Charlie Chaplin</b></h4>
+                  <p>01/12/2020</p> 
+                  <p>Um projeto voltado à disponibilidade de material didático para alunos do IFSP!</p>
+                </div>
+              </div>
+              
+          </div>
+          </a>
+
+          <a href="">
+            <div class="column">
+                  
+              <div class="card">
+               
+                <div class="container">
+                  <h4><b>PROJETO ASTROLOGIA</b></h4>
+                  <p>30/11/2019</p> 
+                  <p>Projeto para facilitar o cadastro de alunos que desejam participar na seleção do time de vôlei IFSP.</p>
+                </div>
+              </div>
+              
+          </div>
+          </a>
+
+          <!--<a href="">
+            <div class="column">
+                  
+              <div class="card">
+              
+                <div class="container">
+                  <h4><b>PROJETO PORTFÓLIO
+                    </b></h4>
+                  <p>16/01/2021</p> 
+                  <p>Um projeto voltado à disponibilidade de material didático para alunos do IFSP!</p>
+                </div>
+              </div>
+              
+          </div>
+          </a>
+
+           <a href="">
+            <div class="column">
+                  
+              <div class="card">
+               
+                <div class="container">
+                  <h4><b>PROJETO MARTIN LUZ</b></h4>
+                  <p>01/12/2020</p> 
+                  <p>Um projeto voltado à disponibilidade de material didático para alunos do IFSP!</p>
+                </div>
+              </div>
+              
+          </div>
+          </a> -->
+
+      
+
+      </div>
 
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
