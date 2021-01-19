@@ -58,7 +58,7 @@
           background: #2D2D2D;
           align-items: center;
           justify-content: space-between;
-          padding: 0 50px 0 20px;
+          padding: 0 50px 0 100px;
           font-weight: 700;
           font-family: 'Roboto Condensed', sans-serif;
           flex-wrap: wrap;
@@ -699,26 +699,6 @@
         padding-right: 110px;
     }
 
-    .ano-curriculo{
-      color: #fff;
-      text-align: right;
-      font-family: 'Roboto Condensed', sans-serif;
-      }
-
-      .texto-curriculo{
-        color: #fff;
-        text-align: left;
-        font-family: 'Roboto', sans-serif;
-      }
-
-      .title-section{
-        color: #f5d83d;
-        padding: 20px 0 20px 20px;
-        font-size: 22px;
-        line-height: 60px;
-        font-weight: 700;
-      }
-
   </style>
 </head>
 
@@ -746,19 +726,67 @@
           </ul>
 
         </nav>
-      
-    <br />
-    <span class="title-section">FORMAÇÃO ACADÊMICA</span><br /><br />
-    <div class="col-sm-2 ano-curriculo">2013 - 2016</div>
-    <div class="col-sm-10 texto-curriculo">AAAA</div>
 
-    <div class="col-sm-2 ano-curriculo">2017 - 2020</div>
-    <div class="col-sm-10 texto-curriculo">AAAA</div>
+    <div class="hero-image" id="topo">
+        <a href="index.php">
+          <img src="img/arrow.png" alt="voltar" class="voltar" width="5%" alt="seta voltar"/>
+        </a>
+            
+        <div class="row">
+
+          <div class="col-sm-9 titulo-banner">
+              SOBRE<br /><strong>MIM
+            </strong><br />
+          
+          </div>
+
+      </div>
+      
+    </div>
+
+    <div class="descrição" style="background-color: #2d2d2d; color: #fff">
+    <hr class="about"><br />
+    <!-- <hr class="sobre"><br /> -->
+    Somos uma equipe de 4 integrantes: Laysla Fernanda, Marco Zotti, Miriã Teixeira,
+    Renata de Castro e Samuel Sabino. Nós, juntos, formamos a <strong>Equipe Sol</strong>,
+    que deu origem ao Projeto Jaci: uma plataforma para facilitar e auxiliar os estudos
+    online de muitos alunos!<br /><br />
+
+    Caso encontre algum erro no nosso site ou queira nos dar algum conselho, nosso e-mail
+    é <strong><a class="email-link" href="mailto:renatacmarques29@gmail.com" target="_blank">renatacmarques29@gmail.com</a></strong>.
+    <br /><br />  
     
-    <br />
-    <span class="title-section">EXPERIÊNCIA PROFISSIONAL</span><br /><br />
-    <div class="col-sm-2 ano-curriculo">2013 - 2016</div>
-    <div class="col-sm-10 texto-curriculo">AAAA</div>
+    </div>
+
+
+
+    <!-- <div class="hero-image-about" id="topo">
+        <br /><br />
+            
+        <div class="row">
+          <div class="col-sm-9 titulo-banner-about">
+              ABOUT<br /><strong>ME
+            </strong><br />
+          
+          </div>
+        </div>
+      
+        </div>
+
+        <div class="descrição" style="background-color: #272727; color: #ffffff">
+        <hr class="about"/><br />
+        We are a team of 4 members: Laysla Fernanda, Marco Zotti, Miriã Teixeira,
+        Renata de Castro e Samuel Sabino. We, together, form the <strong>Sol Team</strong>,
+        that gave rise to the Jaci Project: a plataform made to facilite and assist studies online
+        of many students!<br /><br />
+
+        If you find an error on our website or want to give us some advice, our email
+        is <strong><a class="email-link-about" href="mailto:gruposol413@gmail.com" target="_blank">gruposol413@gmail.com</a></strong>.
+        <br /><br />  
+    
+        </div> -->
+
+    
 
     <div class="go-up">
        

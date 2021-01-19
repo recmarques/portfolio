@@ -871,8 +871,8 @@
           </label>
 
           <ul>
-            <li><a class="active" href="index.php">INÍCIO</a></li>
-            <li><a href="projetos.php">PROJETOS</a></li>
+            <li><a href="index.php">INÍCIO</a></li>
+            <li><a class="active" href="projetos.php">PROJETOS</a></li>
             <li><a href="codigos.php">CÓDIGOS</a></li>
             <li class="menu-distant"><a href="sobre.php">SOBRE MIM</a></li>
             <li><a href=meu-perfil.php>CONTATO</a></li>
