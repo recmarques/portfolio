@@ -911,31 +911,25 @@ color: white;
 
   <div class="footer">
      
-        <div class="col-sm-2 rede-social">
+        <div class="col-sm-3 rede-social">
           <a href="https://www.facebook.com/" target="_blank">
             <img src="img/facebook.png" alt="facebook"/>
             </a>
         </div>
 
         <div class="col-sm-2 rede-social">
-          <a href="https://www.instagram.com/" target="_blank">
-            <img src="img/insta.png" alt="instagram"/>
-            </a>
+         EXPLORE<br /><br />Início<br />Projetos<br />Códigos<br />Contato
         </div>
 
-        <div class="col-sm-2 rede-social">
-          <a href="https://twitter.com/" target="_blank">
-            <img src="img/twitter.png" alt="twitter"/>
-            </a>
+        <div class="col-sm-4 rede-social">
+          ENTRE EM CONTATO COMIGO<br /><br />
+          Mande um e-mail para renatacmarques29@gmail.com.
+
+          Responderei assim que possível!
         </div>
 
-        <div class="col-sm-2 rede-social">
-          <a href="mailto:gruposol413@gmail.com" target="_blank">
-            <img src="img/mail.png" alt="e-mail"/>
-            </a>
-        </div>
 
-        <div class="col-sm-4 logo-footer" >
+        <div class="col-sm-3 logo-footer" >
           <a href="sobre.php">
           <img src="img/jaci.png" alt="jaci logo"/>
           </a>
