@@ -892,8 +892,8 @@
 
         </nav>
 
-        <h3>MEUS PROJETOS <span class="num-projetos">(6)</span></h3>
-        <h2>PROGRAMAÇÃO <span class="num-projetos">(4)</span></h2>
+        <h3>MEUS PROJETOS <span class="num-projetos">(7)</span></h3>
+        <h2>PROGRAMAÇÃO <span class="num-projetos">(5)</span></h2>
         <div class="row-column" id="texto">
             <a href="">
               <div class="column">
@@ -957,9 +957,76 @@
                 
             </div>
           </a>
-      
 
         </div>
+
+        <div class="row-column" id="texto">
+          <a href="">
+            <div class="column">
+                  
+              <div class="card">
+                 <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%">  -->
+                <div class="container">
+                  <h4><b>PROJETO NETFLIX | DIGITAL INNOVATION ONE</b></h4>
+                  <p>23/01/2021</p> 
+                  <p>Projeto desenvolvido visando utilizar novas ferramentas e replicar, de maneira
+                    mais semelhante possível, a plataforma "Netflix".
+                  </p>
+                </div>
+              </div>
+              
+          </div>
+          </a>
+
+          <!-- <a href="">
+            <div class="column">
+                  
+              <div class="card">
+                 <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                <div class="container">
+                  <h4><b>PROJETO SOL
+                    TIME DE VÔLEI | IFSP</b></h4>
+                  <p>30/11/2019</p> 
+                  <p>Projeto para facilitar o cadastro de alunos que desejam participar na seleção do time de vôlei IFSP.</p>
+                </div>
+              </div>
+              
+          </div>
+          </a>
+
+          <a href="">
+            <div class="column">
+                  
+              <div class="card">
+                 <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                <div class="container">
+                  <h4><b>PROJETO PORTFÓLIO
+                    </b></h4>
+                  <p>16/01/2021</p> 
+                  <p>Um projeto voltado à disponibilidade de material didático para alunos do IFSP!</p>
+                </div>
+              </div>
+              
+          </div>
+          </a>
+
+          <a href="">
+            <div class="column">
+                  
+              <div class="card">
+                 <img src="img_avatar.png" alt="Avatar" style="width:100%"> 
+                <div class="container">
+                  <h4><b>PROJETO MARTIN LUZ | CASHFORCE</b></h4>
+                  <p>01/12/2020</p> 
+                  <p>Um projeto voltado à disponibilidade de material didático para alunos do IFSP!</p>
+                </div>
+              </div>
+              
+          </div>
+        </a> -->
+    
+
+      </div>
 
 
         <!-- LINHA 2 -->
